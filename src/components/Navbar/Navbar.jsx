@@ -1,4 +1,6 @@
 import "./Navbar.css";
+
+import LinkWithIcon from "./LinkWithIcon";
 const Navbar = () => {
   return (
     <nav className="align_center navbar">
@@ -15,7 +17,18 @@ const Navbar = () => {
           </button>
         </form>
       </div>
-      <div></div>
+
+      <div className="align_center navbar_links">
+        <LinkWithIcon link="/" title="Home" />
+        <LinkWithIcon link="/products" title="Products" />{" "}
+        <LinkWithIcon link="/login" title="LogIn" />{" "}
+        <LinkWithIcon link="/signup" title="SignUp" />{" "}
+        <LinkWithIcon link="/myorders" title="My Orders" />
+        <LinkWithIcon link="/logout" title="Logout" />
+        <a href="/cart" className="align_center">
+          Cart <p className="align_center cart_counts">0</p>
+        </a>
+      </div>
     </nav>
   );
 };
