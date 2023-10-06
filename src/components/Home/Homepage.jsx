@@ -1,6 +1,7 @@
 import Herosection from "./Herosection";
 import iphone from "../../assets/iphone-14-pro.webp";
 import mac from "../../assets/mac-system-cut.jfif";
+import FeaturedProducts from "./FeaturedProducts";
 
 const Homepage = () => {
   return (
@@ -11,7 +12,7 @@ const Homepage = () => {
         link="/"
         image={iphone}
       />
-      {/* Featured Products */}
+      <FeaturedProducts />
       <Herosection
         title="Build the ultimate setup"
         subtitle="You can add studio display and clour-matched magic accessories to your bag after configure your Mac mini"
