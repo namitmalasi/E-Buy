@@ -15,7 +15,7 @@ const Homepage = () => {
       <FeaturedProducts />
       <Herosection
         title="Build the ultimate setup"
-        subtitle="You can add studio display and clour-matched magic accessories to your bag after configure your Mac mini"
+        subtitle="You can add studio display and colour-matched magic accessories to your bag after configure your Mac mini"
         link="/"
         image={mac}
       />
